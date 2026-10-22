@@ -19,7 +19,7 @@ Projeto acadêmico coletivo desenvolvido no contexto da disciplina de Programaç
 
 ## Estado da consolidação
 
-Os arquivos HTML, CSS, JavaScript e textos de licença já foram copiados da origem. **A migração ainda não está completa:** os arquivos binários de imagens e fontes precisam ser copiados e verificados antes de considerar o site funcional neste repositório. Até concluir essa etapa, os caminhos de imagens e fontes podem estar quebrados.
+Os arquivos HTML, CSS, JavaScript, textos de licença, fontes e recursos binários identificados foram copiados da origem, com uma exceção: `imgs/imgs/Logo1.png` (arquivo grande que não pôde ser recuperado pela integração disponível). **A migração está quase completa, mas ainda precisa ser validada:** esse recurso pode aparecer quebrado se for referenciado pelo site. Copie o arquivo ausente da origem antes de considerar a consolidação integral.
 
 ## Como executar
 
