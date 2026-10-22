@@ -1,0 +1,32 @@
+name: Auto-assign new issues
+
+on:
+  issues:
+    types: [opened, reopened]
+
+permissions:
+  issues: write
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Assign issue to repository maintainer
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const assignee = "Lvc4br";
+            const issue = context.issue;
+            const currentAssignees = (context.payload.issue.assignees || []).map(user => user.login);
+
+            if (currentAssignees.includes(assignee)) {
+              core.info(`Issue #${issue.number} is already assigned to ${assignee}.`);
+              return;
+            }
+
+            await github.rest.issues.addAssignees({
+              ...issue,
+              assignees: [assignee]
+            });
+
+            core.info(`Assigned issue #${issue.number} to ${assignee}.`);
