@@ -9,8 +9,9 @@ Este projeto foi desenvolvido em colaboração por:
 - **Luca Toniolo** — [@Lvc4br](https://github.com/Lvc4br)
 - **Fred** — [@csx-santosz](https://github.com/csx-santosz)
 - **Bianca** — [@bianca2804](https://github.com/bianca2804)
+- **Arthur** — [@Chiizo-quent](https://github.com/Chiizo-quent)
 
-Os três integrantes devem receber crédito como autores do projeto. A consolidação deste repositório na organização Lab-Tecnico-Etec não altera a autoria coletiva nem substitui o repositório de origem.
+Os quatro integrantes devem receber crédito como autores do projeto. A consolidação deste repositório na organização Lab-Tecnico-Etec não altera a autoria coletiva nem substitui o repositório de origem.
 
 ## Tecnologias
 
